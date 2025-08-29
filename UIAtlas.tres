@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://dfi0kghafnd63"]
+
+[ext_resource type="Texture2D" uid="uid://xwd2c61iofue" path="res://assets/MediavelFree.png/MediavelFree.png" id="1_gol0e"]
+
+[resource]
+atlas = ExtResource("1_gol0e")
+region = Rect2(0.339417, 1.41364, 78.4727, 94.0092)
