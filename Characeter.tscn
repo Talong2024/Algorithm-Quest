@@ -5,8 +5,4 @@
 [node name="Playground" type="Node2D"]
 
 [node name="Player" parent="." instance=ExtResource("1_d5mof")]
-<<<<<<< HEAD
 position = Vector2(317, 188)
-=======
-position = Vector2(455, 169)
->>>>>>> 39528e6c799b67be60ffac94a392b80f2a184a99
