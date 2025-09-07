@@ -11,9 +11,17 @@ config_version=5
 [application]
 
 config/name="Algorithm Quest"
-run/main_scene="uid://c8jgdvj8ksa3o"
+run/main_scene="uid://c0ljunh3l3uco"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[autoload]
+
+Firebase="*res://addons/godot-firebase/firebase/firebase.tscn"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/godot-firebase/plugin.cfg")
 
 [file_customization]
 

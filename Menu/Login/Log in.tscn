@@ -1,0 +1,49 @@
+[gd_scene load_steps=2 format=3 uid="uid://ceyjiymy8n1s0"]
+
+[ext_resource type="Script" uid="uid://bkiro7ps1dg5i" path="res://Menu/Login/log_in.gd" id="1_ngrpi"]
+
+[node name="LogIn" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_ngrpi")
+
+[node name="Email" type="LineEdit" parent="."]
+layout_mode = 0
+offset_left = 291.0
+offset_top = 189.0
+offset_right = 948.0
+offset_bottom = 239.0
+placeholder_text = "Email"
+
+[node name="Password" type="LineEdit" parent="."]
+offset_left = 291.0
+offset_top = 280.0
+offset_right = 948.0
+offset_bottom = 330.0
+placeholder_text = "Password"
+secret = true
+
+[node name="Login" type="Button" parent="."]
+layout_mode = 0
+offset_left = 350.0
+offset_top = 410.0
+offset_right = 517.0
+offset_bottom = 453.0
+text = "Log In"
+
+[node name="signup" type="Button" parent="."]
+offset_left = 700.0
+offset_top = 410.0
+offset_right = 867.0
+offset_bottom = 453.0
+text = "Sign Up"
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 287.0
+offset_top = 136.0
+offset_right = 472.0
+offset_bottom = 171.0
+
+[connection signal="button_down" from="signup" to="." method="_on_signup_button_down"]
+[connection signal="pressed" from="signup" to="." method="_on_signup_pressed"]

@@ -111,6 +111,7 @@ sources/1 = SubResource("TileSetAtlasSource_te3cd")
 sources/2 = SubResource("TileSetAtlasSource_4nvhp")
 
 [node name="arena_room1" type="Node2D"]
+position = Vector2(0, 1)
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
 scale = Vector2(3, 3)
