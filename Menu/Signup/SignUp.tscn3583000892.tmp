@@ -53,3 +53,5 @@ script = ExtResource("2_l3e8w")
 metadata/_custom_type_script = "uid://bk7837i2sws7y"
 
 [node name="HTTPRequest" type="HTTPRequest" parent="."]
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

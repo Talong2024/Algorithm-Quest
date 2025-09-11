@@ -16,6 +16,7 @@ offset_bottom = 239.0
 placeholder_text = "Email"
 
 [node name="Password" type="LineEdit" parent="."]
+layout_mode = 0
 offset_left = 291.0
 offset_top = 280.0
 offset_right = 948.0
@@ -32,6 +33,7 @@ offset_bottom = 453.0
 text = "Log In"
 
 [node name="signup" type="Button" parent="."]
+layout_mode = 0
 offset_left = 700.0
 offset_top = 410.0
 offset_right = 867.0
@@ -44,6 +46,3 @@ offset_left = 287.0
 offset_top = 136.0
 offset_right = 472.0
 offset_bottom = 171.0
-
-[connection signal="button_down" from="signup" to="." method="_on_signup_button_down"]
-[connection signal="pressed" from="signup" to="." method="_on_signup_pressed"]

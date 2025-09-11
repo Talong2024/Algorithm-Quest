@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dnstrprcw48fd"]
+
+[ext_resource type="Script" uid="uid://bxngechu8mdg3" path="res://test/firebase_config_test.gd" id="1_fe33s"]
+
+[node name="FirebaseConfigTest" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_fe33s")
